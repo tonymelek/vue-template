@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'Home Page',
+  name: 'home-page',
   data: () => ({
 
   }),
@@ -19,6 +19,7 @@ export default {
 
 <template>
   <h1 class="text-danger text-center" @click="setLastName">Tony {{someDataFromStore}}</h1>
+  <router-link to="/payments">Payments</router-link>
 </template>
 
 <style scoped>
