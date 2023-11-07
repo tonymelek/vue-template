@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'Home Page',
+  name: 'about-us',
   data: () => ({
 
   }),
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <h1 tabindex="0" class="text-danger text-center" @click="setLastName">Tony {{someDataFromStore}}</h1>
+  <h1 tabindex="0" class="text-danger text-center" @click="setLastName">About Us page</h1>
 </template>
 
 <style scoped>
